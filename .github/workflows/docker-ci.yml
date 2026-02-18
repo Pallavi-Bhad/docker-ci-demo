@@ -25,5 +25,5 @@ jobs:
 
       - name: Build and Push Image
         run: |
-          docker build -t pallavi/docker-ci-demo .
-          docker push pallavi/docker-ci-demo
+          docker build -t pallavibhad/docker-ci-demo .
+          docker push pallavibhad/docker-ci-demo
